@@ -40,7 +40,7 @@
       "online": false,
       "especialidade": "Ortopedia e Traumatologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://forumosteoartrite.reumatologia.org.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -54,7 +54,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "cuidados-latinoamericano-paliativos-xii--2026",
@@ -66,7 +67,7 @@
       "online": false,
       "especialidade": "Cuidados Paliativos",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://cuidadospaliativoslatam.com.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -80,7 +81,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "nordeste-norte-oftalmologia--2026",
@@ -197,7 +199,7 @@
       "online": false,
       "especialidade": "Urologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://congressourooncologia.com.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -211,7 +213,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "20o-coluna-csbc--2026",
@@ -223,7 +226,7 @@
       "online": false,
       "especialidade": "Ortopedia e Traumatologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://csbc.coluna.com.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -237,7 +240,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "jpr-paulista-radiologia--2026",
@@ -356,7 +360,7 @@
       "online": false,
       "especialidade": "Oftalmologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://www.sbo2026.com.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -370,7 +374,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "26a-aids-conferencia-sobre--2026",
@@ -671,7 +676,7 @@
       "online": false,
       "especialidade": "Nutrologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://abran.org.br/cbn2026/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -685,7 +690,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "20th-congress-menopause-on-world--2026",
@@ -729,7 +735,7 @@
       "online": false,
       "especialidade": "Pediatria",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://www.congressosabarapensi.org.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -743,7 +749,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "46o-angiologia-cirurgia-vascular--2026",
@@ -755,7 +762,7 @@
       "online": false,
       "especialidade": "Cirurgia Vascular",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://bahiavascular2026.com.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -769,7 +776,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "neurologia-xxxii--2026",
@@ -871,7 +879,7 @@
       "online": false,
       "especialidade": "Cirurgia Plástica",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://congressocbcp.com.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -885,7 +893,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "42o-pediatria--2026",
@@ -929,7 +938,7 @@
       "online": false,
       "especialidade": "Radiologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://congressosbus2026.com.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -943,7 +952,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "14o-clinica-medica-paulista--2026",
