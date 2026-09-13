@@ -37,7 +37,8 @@ def main():
         print("• events.json inicializado a partir do seed", file=sys.stderr)
 
     step("ingest.py", needs_key="ANTHROPIC_API_KEY")   # descoberta ao vivo
-    step("enrich.py", needs_key="MISTRAL_API_KEY")     # links + CAP + call-for-papers
+    step("_apply_enrichment.py")                        # carimba os links verificados (curados)
+    step("enrich.py", needs_key="MISTRAL_API_KEY")     # preenche o resto: links + CAP + call-for-papers
     step("build_landing_data.py")                       # sempre: gera landing/events.json
     print("✓ pipeline concluído", file=sys.stderr)
 

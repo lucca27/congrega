@@ -40,6 +40,14 @@ PATCH = {
     "Congresso Brasileiro de Anestesiologia": {
         "url": "https://cba2026.com.br/",
         "nome": "71º Congresso Brasileiro de Anestesiologia (CBA 2026)"},
+    "88º Congresso da SBO": {"url": "https://www.sbo2026.com.br/"},
+    "46º Congresso Brasileiro de Angiologia e Cirurgia Vascular": {"url": "https://bahiavascular2026.com.br/"},
+    "30º Congresso Brasileiro de Ultrassonografia da SBUS": {"url": "https://congressosbus2026.com.br/"},
+    "20º Congresso Brasileiro de Coluna (CSBC)": {"url": "https://csbc.coluna.com.br/"},
+    "Congresso Internacional de Uro-Oncologia 2026": {"url": "https://congressourooncologia.com.br/"},
+    "XXX Congresso Brasileiro de Nutrologia 2026": {"url": "https://abran.org.br/cbn2026/"},
+    "8º Congresso Internacional Sabará-Pensi de Saúde Infantil": {"url": "https://www.congressosabarapensi.org.br/"},
+    "13º Congresso de Cirurgia Plástica e Cosmiatria (CBCP)": {"url": "https://congressocbcp.com.br/"},
 }
 
 

@@ -48,22 +48,31 @@ Regras: não invente. Se não achar a página oficial com segurança, url_inscri
 Só preencha pontos_cap/call_for_papers se estiverem explícitos. Datas em ISO."""
 
 
-def call_mistral(prompt: str) -> dict:
+def call_mistral(prompt: str, tries: int = 5) -> dict:
     body = json.dumps({
         "model": MODEL,
         "tools": [{"type": "web_search"}],
         "inputs": prompt,
     }).encode("utf-8")
-    req = urllib.request.Request(API_URL, data=body, method="POST", headers={
-        "Authorization": f"Bearer {KEY}",
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=180) as r:
-            return json.loads(r.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        raise RuntimeError(f"HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:300]}")
+    for attempt in range(tries):
+        req = urllib.request.Request(API_URL, data=body, method="POST", headers={
+            "Authorization": f"Bearer {KEY}",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode("utf-8", "replace")[:200]
+            # 429 = rate limit, 503 = indisponível: espera e tenta de novo
+            if e.code in (429, 503) and attempt < tries - 1:
+                wait = min(60, 8 * (2 ** attempt))   # 8s, 16s, 32s, 60s…
+                print(f"    rate limit ({e.code}); aguardando {wait}s…", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"HTTP {e.code}: {detail}")
+    raise RuntimeError("falhou após múltiplas tentativas (rate limit)")
 
 
 def extract_text(resp: dict) -> str:
@@ -138,7 +147,7 @@ def main():
             cap = f" · {ev['pontos_cap']}pts" if ev.get("pontos_cap") else ""
             print(f"  [{i}/{len(alvos)}] {tag}{cap}  {ev['nome'][:44]}", file=sys.stderr)
         json.dump(doc, open(DATA, "w"), ensure_ascii=False, indent=2)  # salva incremental
-        time.sleep(1)  # gentil com rate limit
+        time.sleep(3)  # espaçamento maior p/ não estourar o rate limit da Mistral
 
     com_link = sum(1 for e in evs if e.get("url_inscricao"))
     print(f"\n✓ {com_link}/{len(evs)} eventos com link oficial → {DATA}", file=sys.stderr)
