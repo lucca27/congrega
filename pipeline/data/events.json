@@ -13,7 +13,7 @@
       "online": false,
       "especialidade": "Dermatologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://www.hbatools.com.br/congresso-internacional-debrabrasil__2055",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -27,7 +27,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "2nd-atlantic-forum-on-osteoarthritis-south--2026",
