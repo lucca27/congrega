@@ -1,0 +1,1113 @@
+{
+  "gerado_em": "2026-09-12T23:29:17+00:00",
+  "brutos_coletados": 49,
+  "total": 40,
+  "eventos": [
+    {
+      "id": "eb2026--2026",
+      "nome": "Congresso Internacional EB2026",
+      "data_inicio": "2026-01-20",
+      "data_fim": "2026-01-22",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Dermatologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "2nd-atlantic-forum-on-osteoarthritis-south--2026",
+      "nome": "2nd South Atlantic Forum on Osteoarthritis",
+      "data_inicio": "2026-02-27",
+      "data_fim": "2026-02-28",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Ortopedia e Traumatologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "cuidados-latinoamericano-paliativos-xii--2026",
+      "nome": "XII Congresso Latinoamericano de Cuidados Paliativos",
+      "data_inicio": "2026-03-11",
+      "data_fim": "2026-03-14",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Cuidados Paliativos",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "nordeste-norte-oftalmologia--2026",
+      "nome": "Congresso Norte e Nordeste de Oftalmologia 2026",
+      "data_inicio": "2026-03-19",
+      "data_fim": "2026-03-21",
+      "cidade": "Fortaleza",
+      "uf": "CE",
+      "online": false,
+      "especialidade": "Oftalmologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "abn-sul-summit--2026",
+      "nome": "ABN Summit Sul",
+      "data_inicio": "2026-03-20",
+      "data_fim": "2026-03-21",
+      "cidade": "Curitiba",
+      "uf": "PR",
+      "online": false,
+      "especialidade": "Neurologia",
+      "edicao": null,
+      "url_inscricao": "https://abneuro.iweventos.com.br/summits2026",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "ccp-clinica-psiquiatrica--2026",
+      "nome": "Congresso Clínica Psiquiátrica (CCP)",
+      "data_inicio": "2026-03-26",
+      "data_fim": "2026-03-28",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Psiquiatria",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "2o-departamentos-sbc--2026",
+      "nome": "2º Congresso dos Departamentos da SBC",
+      "data_inicio": "2026-04-10",
+      "data_fim": "2026-04-11",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "online": false,
+      "especialidade": "Cardiologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "oncologia-uro--2026",
+      "nome": "Congresso Internacional de Uro-Oncologia 2026",
+      "data_inicio": "2026-04-15",
+      "data_fim": "2026-04-18",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Urologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "20o-coluna-csbc--2026",
+      "nome": "20º Congresso Brasileiro de Coluna (CSBC)",
+      "data_inicio": "2026-04-18",
+      "data_fim": "2026-04-21",
+      "cidade": "Curitiba",
+      "uf": "PR",
+      "online": false,
+      "especialidade": "Ortopedia e Traumatologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "jpr-paulista-radiologia--2026",
+      "nome": "Jornada Paulista de Radiologia (JPR)",
+      "data_inicio": "2026-04-30",
+      "data_fim": "2026-05-03",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Radiologia",
+      "edicao": null,
+      "url_inscricao": "https://www.spr.org.br/evento/416/jornada-paulista-de-radiologia/sobre-a-jpr",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "43o-socerj--2026",
+      "nome": "43º Congresso SOCERJ",
+      "data_inicio": "2026-05-07",
+      "data_fim": "2026-05-08",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "online": false,
+      "especialidade": "Cardiologia",
+      "edicao": null,
+      "url_inscricao": "https://socerj.org.br",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "63o-ginecologia-obstetricia--2026",
+      "nome": "63º Congresso Brasileiro de Ginecologia e Obstetrícia",
+      "data_inicio": "2026-05-27",
+      "data_fim": "2026-05-30",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "online": false,
+      "especialidade": "Ginecologia e Obstetrícia",
+      "edicao": null,
+      "url_inscricao": "https://cbgo2026.com.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "gastrao--2026",
+      "nome": "GASTRÃO 2026",
+      "data_inicio": "2026-06-24",
+      "data_fim": "2026-06-26",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Gastroenterologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "88o-sbo--2026",
+      "nome": "88º Congresso da SBO",
+      "data_inicio": "2026-07-02",
+      "data_fim": "2026-07-04",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "online": false,
+      "especialidade": "Oftalmologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "26a-aids-conferencia-sobre--2026",
+      "nome": "26ª Conferência Internacional sobre AIDS (AIDS 2026)",
+      "data_inicio": "2026-07-25",
+      "data_fim": "2026-07-30",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "online": false,
+      "especialidade": "Infectologia",
+      "edicao": null,
+      "url_inscricao": "https://www.aids2026.org",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "neurocirurgia-xxxvi--2026",
+      "nome": "XXXVI Congresso Brasileiro de Neurocirurgia",
+      "data_inicio": "2026-08-11",
+      "data_fim": "2026-08-15",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "online": false,
+      "especialidade": "Neurocirurgia",
+      "edicao": null,
+      "url_inscricao": "https://cbn2026.com.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "31o-endocrinologia-metabologia--2026",
+      "nome": "37º Congresso Brasileiro de Endocrinologia e Metabologia (CBEM 2026)",
+      "data_inicio": "2026-08-26",
+      "data_fim": "2026-08-29",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "online": false,
+      "especialidade": "Endocrinologia",
+      "edicao": null,
+      "url_inscricao": "https://cbemsbem.com.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "43o-reumatologia--2026",
+      "nome": "43º Congresso Brasileiro de Reumatologia",
+      "data_inicio": "2026-09-02",
+      "data_fim": "2026-09-05",
+      "cidade": "Curitiba",
+      "uf": "PR",
+      "online": false,
+      "especialidade": "Reumatologia",
+      "edicao": null,
+      "url_inscricao": "https://sbr2026.eventize.com.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "79o-dermatologia--2026",
+      "nome": "79º Congresso Brasileiro de Dermatologia",
+      "data_inicio": "2026-09-10",
+      "data_fim": "2026-09-12",
+      "cidade": "Fortaleza",
+      "uf": "CE",
+      "online": false,
+      "especialidade": "Dermatologia",
+      "edicao": null,
+      "url_inscricao": "https://eventos.sbd.org.br/79csbd/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "nefrologia-xxxiii--2026",
+      "nome": "XXXIII Congresso Brasileiro de Nefrologia",
+      "data_inicio": "2026-09-16",
+      "data_fim": "2026-09-19",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "online": false,
+      "especialidade": "Nefrologia",
+      "edicao": null,
+      "url_inscricao": "https://congressonefro.com.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        },
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "64o-cobem-educacao-medica--2026",
+      "nome": "64º COBEM – Congresso Brasileiro de Educação Médica",
+      "data_inicio": "2026-09-17",
+      "data_fim": "2026-09-20",
+      "cidade": "Porto Alegre",
+      "uf": "RS",
+      "online": false,
+      "especialidade": "Educação Médica",
+      "edicao": null,
+      "url_inscricao": "https://cobem.com.br/2026/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": true,
+        "prazo_final": null,
+        "url": "https://cobem.com.br/2026/"
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        },
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "55o-cbr26-radiologia--2026",
+      "nome": "55º Congresso Brasileiro de Radiologia (CBR26)",
+      "data_inicio": "2026-09-17",
+      "data_fim": "2026-09-19",
+      "cidade": "Recife",
+      "uf": "PE",
+      "online": false,
+      "especialidade": "Radiologia",
+      "edicao": null,
+      "url_inscricao": "https://cbr.org.br/en/atividades-cbr/55o-congresso-brasileiro-de-radiologia-e-diagnostico-por-imagem-cbr26/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        },
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "clinica-medica-mineiro-xiv--2026",
+      "nome": "XIV Congresso Mineiro de Clínica Médica",
+      "data_inicio": "2026-09-23",
+      "data_fim": "2026-09-26",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "online": false,
+      "especialidade": "Clínica Médica",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "74o-coloproctologia--2026",
+      "nome": "74º Congresso Brasileiro de Coloproctologia",
+      "data_inicio": "2026-09-24",
+      "data_fim": "2026-09-26",
+      "cidade": "Balneário Camboriú",
+      "uf": "SC",
+      "online": false,
+      "especialidade": "Coloproctologia",
+      "edicao": null,
+      "url_inscricao": "https://coloprocto2026.com.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        },
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "nutrologia-xxx--2026",
+      "nome": "XXX Congresso Brasileiro de Nutrologia 2026",
+      "data_inicio": "2026-09-24",
+      "data_fim": "2026-09-26",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Nutrologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "20th-congress-menopause-on-world--2026",
+      "nome": "20th World Congress on Menopause",
+      "data_inicio": "2026-09-30",
+      "data_fim": "2026-10-03",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "online": false,
+      "especialidade": "Ginecologia e Obstetrícia",
+      "edicao": null,
+      "url_inscricao": "https://imsrio2026.com/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        },
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "8o-infantil-pensi-sabara-saude--2026",
+      "nome": "8º Congresso Internacional Sabará-Pensi de Saúde Infantil",
+      "data_inicio": "2026-10-01",
+      "data_fim": "2026-10-03",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Pediatria",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "46o-angiologia-cirurgia-vascular--2026",
+      "nome": "46º Congresso Brasileiro de Angiologia e Cirurgia Vascular",
+      "data_inicio": "2026-10-05",
+      "data_fim": "2026-10-09",
+      "cidade": "Salvador",
+      "uf": "BA",
+      "online": false,
+      "especialidade": "Cirurgia Vascular",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "neurologia-xxxii--2026",
+      "nome": "XXXII Congresso Brasileiro de Neurologia",
+      "data_inicio": "2026-10-07",
+      "data_fim": "2026-10-10",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "online": false,
+      "especialidade": "Neurologia",
+      "edicao": null,
+      "url_inscricao": "https://congressoabneuro2026.com.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        },
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "81o-cardiologia--2026",
+      "nome": "81º Congresso Brasileiro de Cardiologia",
+      "data_inicio": "2026-10-08",
+      "data_fim": "2026-10-10",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "online": false,
+      "especialidade": "Cardiologia",
+      "edicao": null,
+      "url_inscricao": "https://sbc.iweventos.com.br/cardio2026",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        },
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "clinica-medica-sul--2026",
+      "nome": "Congresso Sul-brasileiro de Clínica Médica",
+      "data_inicio": "2026-10-09",
+      "data_fim": "2026-10-11",
+      "cidade": "Florianópolis",
+      "uf": "SC",
+      "online": false,
+      "especialidade": "Clínica Médica",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "13o-cbcp-cirurgia-cosmiatria-plastica--2026",
+      "nome": "13º Congresso de Cirurgia Plástica e Cosmiatria (CBCP)",
+      "data_inicio": "2026-10-09",
+      "data_fim": "2026-10-11",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Cirurgia Plástica",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "42o-pediatria--2026",
+      "nome": "42º Congresso Brasileiro de Pediatria",
+      "data_inicio": "2026-10-13",
+      "data_fim": "2026-10-17",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "online": false,
+      "especialidade": "Pediatria",
+      "edicao": null,
+      "url_inscricao": "https://cbpediatria.com.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        },
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "30o-sbus-ultrassonografia--2026",
+      "nome": "30º Congresso Brasileiro de Ultrassonografia da SBUS",
+      "data_inicio": "2026-10-14",
+      "data_fim": "2026-10-17",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Radiologia",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "14o-clinica-medica-paulista--2026",
+      "nome": "14º Congresso Paulista de Clínica Médica",
+      "data_inicio": "2026-10-16",
+      "data_fim": "2026-10-17",
+      "cidade": "Campinas",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Clínica Médica",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    },
+    {
+      "id": "psiquiatria-xliii--2026",
+      "nome": "XLIII Congresso Brasileiro de Psiquiatria",
+      "data_inicio": "2026-10-28",
+      "data_fim": "2026-10-31",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "online": false,
+      "especialidade": "Psiquiatria",
+      "edicao": null,
+      "url_inscricao": "https://cbpabp.org.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": true,
+        "prazo_final": "2026-04-12",
+        "url": "https://cbpabp.org.br/"
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        },
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "hematologia-hemo--2026",
+      "nome": "Congresso Brasileiro de Hematologia (HEMO 2026)",
+      "data_inicio": "2026-10-28",
+      "data_fim": "2026-10-31",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "online": false,
+      "especialidade": "Hematologia",
+      "edicao": null,
+      "url_inscricao": "https://hemo.org.br/hemo2026",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "AgrupaMED",
+          "url": "https://agrupamed.com.br/congressos",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "58o-sbot--2026",
+      "nome": "58º Congresso Anual SBOT 2026",
+      "data_inicio": "2026-11-18",
+      "data_fim": "2026-11-20",
+      "cidade": "Porto Alegre",
+      "uf": "RS",
+      "online": false,
+      "especialidade": "Ortopedia e Traumatologia",
+      "edicao": null,
+      "url_inscricao": "https://sbot.org.br/congresso/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "anestesiologia--2026",
+      "nome": "71º Congresso Brasileiro de Anestesiologia (CBA 2026)",
+      "data_inicio": "2026-11-26",
+      "data_fim": "2026-11-29",
+      "cidade": "Fortaleza",
+      "uf": "CE",
+      "online": false,
+      "especialidade": "Anestesiologia",
+      "edicao": null,
+      "url_inscricao": "https://cba2026.com.br/",
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0,
+      "_enriched": true
+    },
+    {
+      "id": "sono-xxii--2026",
+      "nome": "XXII Congresso Brasileiro do Sono",
+      "data_inicio": "2026-12-02",
+      "data_fim": "2026-12-05",
+      "cidade": null,
+      "uf": null,
+      "online": false,
+      "especialidade": "Outros",
+      "edicao": null,
+      "url_inscricao": null,
+      "pontos_cap": null,
+      "call_for_papers": {
+        "aberto": null,
+        "prazo_final": null,
+        "url": null
+      },
+      "fontes": [
+        {
+          "nome": "bip",
+          "url": "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026",
+          "coletado_em": "2026-09-12T23:29:17+00:00"
+        }
+      ],
+      "confianca": 1.0
+    }
+  ]
+}

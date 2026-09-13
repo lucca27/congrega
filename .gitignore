@@ -1,0 +1,14 @@
+# NUNCA commitar segredos
+.env
+*.env
+*.key
+secrets*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store

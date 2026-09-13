@@ -1,0 +1,59 @@
+# ============================================================================
+# REGISTRO DE FONTES — a espinha dorsal da cobertura nacional.
+# "Cobertura total" = manter esta lista completa. Cada sociedade nacional tem
+# uma agenda oficial; os agregadores pegam o que escapa; as APIs cobrem quem
+# usa Even3/Sympla. O crawler descobre a página de agenda a partir do site.
+#
+# tier:  1 sociedade nacional · 2 regional/estadual · 3 agregador · 4 API
+# cadence: com que frequência recoletar (o scheduler usa isto)
+# ativo:  entra na coleta agora
+# ============================================================================
+
+sources:
+  # ---------- TIER 3 · agregadores (arranque rápido, cobrem tudo raso) -------
+  - {nome: AgrupaMED, tier: 3, tipo: html, cadence: semanal, ativo: true,
+     url: "https://agrupamed.com.br/congressos"}
+  - {nome: bip,       tier: 3, tipo: html, cadence: semanal, ativo: true,
+     url: "https://www.usebip.com/blogs/bip-insights/calendario-de-congressos-medicos-2026"}
+  - {nome: "Even3 (busca pública)", tier: 3, tipo: html, cadence: semanal, ativo: false,
+     url: "https://www.even3.com.br/eventos/"}
+  - {nome: "Sympla (categoria saúde)", tier: 3, tipo: html, cadence: semanal, ativo: false,
+     url: "https://www.sympla.com.br/eventos?c=congressos-palestras&s=medicina"}
+
+  # ---------- TIER 1 · sociedades nacionais por especialidade ---------------
+  # (base do site; o crawler localiza /agenda, /eventos, /congressos)
+  - {nome: SBC,      especialidade: Cardiologia,               tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.cardiol.br"}
+  - {nome: SBP,      especialidade: Pediatria,                 tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.sbp.com.br"}
+  - {nome: SBOT,     especialidade: "Ortopedia e Traumatologia", tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.sbot.org.br"}
+  - {nome: SBD,      especialidade: Dermatologia,              tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.sbd.org.br"}
+  - {nome: FEBRASGO, especialidade: "Ginecologia e Obstetrícia", tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.febrasgo.org.br"}
+  - {nome: SBU,      especialidade: Urologia,                  tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://portaldaurologia.org.br"}
+  - {nome: ABP,      especialidade: Psiquiatria,               tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.abp.org.br"}
+  - {nome: SBN,      especialidade: Nefrologia,                tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.sbn.org.br"}
+  - {nome: SBPT,     especialidade: Pneumologia,               tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://sbpt.org.br"}
+  - {nome: CBR,      especialidade: Radiologia,                tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://cbr.org.br"}
+  - {nome: SBEM,     especialidade: Endocrinologia,            tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.endocrino.org.br"}
+  - {nome: SBR,      especialidade: Reumatologia,              tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.reumatologia.org.br"}
+  - {nome: ABRAN,    especialidade: Nutrologia,                tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://abran.org.br"}
+  - {nome: SBOC,     especialidade: Oncologia,                 tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.sboc.org.br"}
+  - {nome: SBGG,     especialidade: Geriatria,                 tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://sbgg.org.br"}
+  - {nome: SBCP,     especialidade: "Cirurgia Plástica",       tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.cirurgiaplastica.org.br"}
+  - {nome: SBACV,    especialidade: "Cirurgia Vascular",       tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.sbacv.org.br"}
+  - {nome: CBC,      especialidade: "Cirurgia Geral",          tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://cbc.org.br"}
+  - {nome: SBA,      especialidade: Anestesiologia,            tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.sbahq.org"}
+  - {nome: ABORL,    especialidade: Otorrinolaringologia,      tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.aborlccf.org.br"}
+  - {nome: CBO,      especialidade: Oftalmologia,              tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.cbo.net.br"}
+  - {nome: ABHH,     especialidade: Hematologia,               tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.abhh.org.br"}
+  - {nome: AMIB,     especialidade: "Medicina Intensiva",      tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.amib.org.br"}
+  - {nome: SBMFC,    especialidade: "Medicina de Família e Comunidade", tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.sbmfc.org.br"}
+  - {nome: SBI,      especialidade: Infectologia,              tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://www.infectologia.org.br"}
+  - {nome: ABEM,     especialidade: "Educação Médica",         tier: 1, tipo: html, cadence: quinzenal, ativo: false, url: "https://website.abem-educmed.org.br"}
+
+  # ---------- TIER 2 · regionais (ex.: cardiologia estadual) ----------------
+  # amplie por UF conforme a demanda de cada especialidade/região
+  - {nome: SOCESP,   especialidade: Cardiologia, uf: SP, tier: 2, tipo: html, cadence: mensal, ativo: false, url: "https://www.socesp.org.br"}
+  - {nome: SOCERJ,   especialidade: Cardiologia, uf: RJ, tier: 2, tipo: html, cadence: mensal, ativo: false, url: "https://socerj.org.br"}
+
+  # ---------- TIER 4 · APIs (lado-organizador; exigem chave por conta) ------
+  - {nome: Even3 API,  tier: 4, tipo: api, cadence: diaria, ativo: false, url: "https://api.even3.com.br"}
+  - {nome: Sympla API, tier: 4, tipo: api, cadence: diaria, ativo: false, url: "https://api.sympla.com.br"}

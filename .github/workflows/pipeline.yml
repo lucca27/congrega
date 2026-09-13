@@ -1,0 +1,64 @@
+# Automação do Congrega — descoberta + enriquecimento + publicação.
+#
+# ⚠️ Use isto em uma conta GitHub PESSOAL. Não vincule a nenhuma conta/ambiente
+#    corporativo. As chaves ficam em Settings → Secrets and variables → Actions.
+#
+# Uma vez configurado, roda sozinho no cron abaixo e publica o site no GitHub Pages.
+
+name: pipeline-congrega
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"      # toda segunda, 06:00 UTC (descoberta + enriquecimento)
+  workflow_dispatch: {}       # botão "Run workflow" para rodar manualmente
+
+permissions:
+  contents: write             # para commitar o catálogo atualizado
+  pages: write                # para publicar no GitHub Pages
+  id-token: write
+
+concurrency:
+  group: congrega
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install anthropic pyyaml
+
+      - name: Rodar pipeline (descoberta → enriquecimento → build)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # opcional: habilita a descoberta
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}       # opcional: habilita o enriquecimento
+        run: python pipeline/run_pipeline.py
+
+      - name: Commitar catálogo atualizado
+        run: |
+          git config user.name "congrega-bot"
+          git config user.email "congrega-bot@users.noreply.github.com"
+          git add pipeline/data/events.json landing/events.json
+          git commit -m "chore: atualiza catálogo [skip ci]" || echo "nada a commitar"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: landing              # publica a pasta da landing (inclui events.json)
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
