@@ -94,7 +94,7 @@
       "online": false,
       "especialidade": "Oftalmologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://cnno2026.com.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -108,7 +108,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "abn-sul-summit--2026",
@@ -147,12 +148,12 @@
       "online": false,
       "especialidade": "Psiquiatria",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://2026.clinicapsiquiatrica.org.br/",
       "pontos_cap": null,
       "call_for_papers": {
-        "aberto": null,
-        "prazo_final": null,
-        "url": null
+        "aberto": false,
+        "prazo_final": "2025-12-07",
+        "url": "https://2026.clinicapsiquiatrica.org.br/"
       },
       "fontes": [
         {
@@ -161,7 +162,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "2o-departamentos-sbc--2026",
@@ -173,7 +175,7 @@
       "online": false,
       "especialidade": "Cardiologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://departamentos2026.com.br/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -187,7 +189,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "oncologia-uro--2026",
@@ -334,7 +337,7 @@
       "online": false,
       "especialidade": "Gastroenterologia",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://gastrao.org.br/inscricoes/",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -348,7 +351,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "88o-sbo--2026",
