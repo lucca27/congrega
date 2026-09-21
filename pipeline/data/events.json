@@ -622,10 +622,10 @@
       "online": false,
       "especialidade": "Clínica Médica",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://clinicamedicamg.com.br/site/cmcm2026/inscreva-se",
       "pontos_cap": null,
       "call_for_papers": {
-        "aberto": null,
+        "aberto": true,
         "prazo_final": null,
         "url": null
       },
@@ -636,7 +636,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "74o-coloproctologia--2026",
@@ -857,7 +858,7 @@
       "online": false,
       "especialidade": "Clínica Médica",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://sulbraclinicamedica.com.br/site/sulbraclinicamedica2026/inscricoes",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -871,7 +872,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "13o-cbcp-cirurgia-cosmiatria-plastica--2026",
@@ -969,7 +971,7 @@
       "online": false,
       "especialidade": "Clínica Médica",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://clinicamedicasp.com.br/site/clinicamedicasp2026/inscricoes",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -983,7 +985,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     },
     {
       "id": "psiquiatria-xliii--2026",
@@ -1108,7 +1111,7 @@
       "online": false,
       "especialidade": "Outros",
       "edicao": null,
-      "url_inscricao": null,
+      "url_inscricao": "https://sono2026.com.br/site/sono2026/inscricoes",
       "pontos_cap": null,
       "call_for_papers": {
         "aberto": null,
@@ -1122,7 +1125,8 @@
           "coletado_em": "2026-09-12T23:29:17+00:00"
         }
       ],
-      "confianca": 1.0
+      "confianca": 1.0,
+      "_enriched": true
     }
   ]
 }
